@@ -1,0 +1,24 @@
+[09-Jul-2023 13:33:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php on line 170
+[09-Jul-2023 13:33:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php on line 4
+[10-Aug-2023 15:13:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php on line 170
+[10-Aug-2023 15:13:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php on line 4
+[06-Mar-2024 00:55:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php:170
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-migration.php on line 170
+[06-Mar-2024 00:56:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/fontawesome/icon-sections.php on line 4

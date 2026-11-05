@@ -1,0 +1,12 @@
+# Robots.txt for Gramin Adiwasi Samaj Vikas Sansthan (GASVS)
+# Official Website: https://gasvs.org
+
+User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /shop/
+
+Sitemap: https://gasvs.org/sitemap.xml

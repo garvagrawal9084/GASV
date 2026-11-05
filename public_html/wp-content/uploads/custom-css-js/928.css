@@ -1,0 +1,11 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.main-navigation ul.menu li a, .slicknav_menu .slicknav_nav li a {
+    font-size: 16px !important;
+	font-weight:700 !important;
+	padding: 17px 10px;
+}
+#masthead .container {
+    max-width: 1300px;
+}</style>
+<!-- end Simple Custom CSS and JS -->

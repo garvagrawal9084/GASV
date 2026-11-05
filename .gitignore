@@ -1,0 +1,33 @@
+# Node / Playwright
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large archives and backups (exceeds GitHub file limits)
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.wpress
+public_html/wp-content/ai1wm-backups/
+public_html/wp-content/backuply/backups/
+
+# Screenshot testing output artifacts
+screenshots/
+
+# WordPress logs & temp
+public_html/error_log
+public_html/wp-content/debug.log
+public_html/wp-content/upgrade/
+public_html/wp-content/upgrade-temp-backup/
+public_html/wp-content/cache/

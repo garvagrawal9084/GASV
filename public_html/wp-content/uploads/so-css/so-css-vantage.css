@@ -1,0 +1,19 @@
+.inner-table {
+	overflow-x: auto;
+}
+.inner-table table, .inner-table th, .inner-table td {
+    border: 1px solid #0000001f;
+    border-collapse: collapse;
+    padding: 2px 15px;
+}
+.team-pic .bx {
+    border: 1px solid #00000030;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.inr-team-title {
+    padding-bottom: 0;
+}
+.inr-team-title h3.widget-title {
+    margin-bottom: 0;
+}

