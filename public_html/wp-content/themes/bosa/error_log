@@ -1,8 +1,0 @@
-[25-Oct-2024 16:43:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gasvsor/public_html/wp-content/themes/bosa/index.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/gasvsor/public_html/wp-content/themes/bosa/index.php on line 15
-[14-Apr-2025 14:28:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/gasvsor/public_html/wp-content/themes/bosa/index.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/gasvsor/public_html/wp-content/themes/bosa/index.php on line 15

@@ -1,4 +1,0 @@
-[25-Oct-2024 16:45:04 UTC] PHP Fatal error:  Uncaught Error: Class "Smush\Core\Modules\Abstract_Module" not found in /home/gasvsor/public_html/wp-content/plugins/wp-smushit/app/class-media-library.php:27
-Stack trace:
-#0 {main}
-  thrown in /home/gasvsor/public_html/wp-content/plugins/wp-smushit/app/class-media-library.php on line 27

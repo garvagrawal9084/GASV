@@ -162,12 +162,10 @@ The repository includes automated scripts to test layouts and capture responsive
 npm install
 npx playwright install chromium
 
-# 2. Run full screenshot capture
-node capture_all.js
-
-# Or run individual section checks
-node screenshots_disability.js
-node screenshots_health.js
+# 2. Run automated visual regression screenshot capture
+npm run screenshot
+# Or run via Python preview capture:
+python3 scripts/capture_preview.py
 ```
 
 ---

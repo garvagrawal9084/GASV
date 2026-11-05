@@ -3,7 +3,7 @@ const path = require('path');
 const fs = require('fs');
 
 (async () => {
-  const screenshotDir = path.join(__dirname, 'screenshots');
+  const screenshotDir = path.join(__dirname, '..', 'screenshots');
   if (!fs.existsSync(screenshotDir)) {
     fs.mkdirSync(screenshotDir, { recursive: true });
   }

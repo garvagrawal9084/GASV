@@ -22,12 +22,25 @@ Thumbs.db
 public_html/wp-content/ai1wm-backups/
 public_html/wp-content/backuply/backups/
 
+# Backup files
+*.bak
+*.bak_*
+*.swp
+*.old
+
 # Screenshot testing output artifacts
 screenshots/
 
+# Temporary HTML preview exports
+public_html/preview_*.html
+
 # WordPress logs & temp
+*.log
+**/error_log
 public_html/error_log
+public_html/wp-config.production.php
 public_html/wp-content/debug.log
 public_html/wp-content/upgrade/
 public_html/wp-content/upgrade-temp-backup/
 public_html/wp-content/cache/
+public_html/wp-content/uploads/wc-logs/
