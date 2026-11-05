@@ -13,6 +13,20 @@ yarn-error.log*
 ehthumbs.db
 Thumbs.db
 
+# Database exports and SQL dumps
+*.sql
+*.sql.gz
+
+# WordPress configuration and environment secrets
+public_html/wp-config.php
+public_html/wp-config.*.php
+wp-config.php
+.env
+.env.*
+
+# Backup plugins sensitive configuration & data
+public_html/wp-content/backuply/
+
 # Large archives and backups (exceeds GitHub file limits)
 *.zip
 *.tar.gz
